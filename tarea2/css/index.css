@@ -1,0 +1,39 @@
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.fondo {
+  background-color: thistle;
+}
+
+ul {
+  list-style: none;
+  padding: 10%; /* Elimina el relleno predeterminado */
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+ul li {
+  margin-bottom: 25px; /* Espaciado entre elementos */
+}
+
+ul li a {
+  text-decoration: none;
+  color: #020202; /* Cambia el color de texto */
+  font-size: 18px; /* Tamaño de fuente */
+}
+
+ul li a.boton {
+  background-color: #ebccf0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 35px;
+  transition: 0.3s;
+  display: inline-block;
+  text-align: center;
+}
+
+ul li a.boton:hover {
+  background-color: #0056b3;
+}

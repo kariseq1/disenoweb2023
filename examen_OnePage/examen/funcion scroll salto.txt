@@ -1,0 +1,12 @@
+
+HACER UN SALTO EXACTO
+-------------------------->
+
+poner el parametro dentro del NAV
+data-scroll-headers
+
+
+let scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 50,
+  easing: "easyInOutQuad",
+});

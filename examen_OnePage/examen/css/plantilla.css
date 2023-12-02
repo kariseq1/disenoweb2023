@@ -1,0 +1,147 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.titulajes {
+  color: #003c5e;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.tarjeta-juguete {
+  height: 100%;
+}
+
+.fondo1 {
+  background-color: #ffffff;
+}
+
+.fondo2 {
+  background-color: #d6dbe3;
+}
+
+.fondo3 {
+  background-color: rgba(232, 232, 228, 0.389);
+}
+
+.btnentrada {
+  cursor: pointer;
+  background-color: #ffffff;
+  width: 200px;
+  height: 60px;
+  border: 3px solid #e4e4e4;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 15px 50px;
+  text-decoration: none;
+  transition: linear 0.5s;
+}
+
+.btnentrada:hover {
+  width: 200px;
+  height: 60px;
+  background-color: #e4e4e4;
+  color: #000;
+  border: 3px solid #0b3e64;
+  text-decoration: none;
+  padding: 15px 50px;
+  font-size: 2.2rem;
+  transition: linear 0.5s;
+}
+
+.goto-top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  width: 75px;
+  height: 50px;
+}
+
+.card-title {
+  font-weight: bolder !important;
+}
+
+.card p {
+  font-size: 18px;
+}
+
+.modal-content {
+  background-color: #ffffff;
+}
+
+.modal-header {
+  background-color: #3391b7;
+  color: white;
+}
+
+.modal-footer {
+  background-color: #3391b7;
+  color: white;
+}
+
+.social-links {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #333;
+  margin: 0 45px;
+  text-decoration: none;
+}
+
+@media (max-width: 575px) {
+  .card {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .bannerparallax {
+    height: calc(100vh);
+  }
+}
+
+@media (min-width: 576px) {
+  .card {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 16rem !important;
+  }
+  .bannerparallax {
+    height: calc(100vh);
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 18rem !important;
+  }
+  .bannerparallax {
+    height: calc(40vh);
+  }
+}

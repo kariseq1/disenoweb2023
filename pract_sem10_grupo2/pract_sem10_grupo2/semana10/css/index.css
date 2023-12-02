@@ -1,0 +1,271 @@
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.logo-img {
+  max-width: 100px;
+  float: left;
+  margin-right: 0px; /* Ajusta según sea necesario */
+}
+
+.tp {
+  text-align: center;
+  font-size: 60px !important;
+}
+
+.titulo1 {
+  font-size: 70px;
+  color: #000;
+}
+
+.titulo2 {
+  font-size: 50px;
+  color: #000;
+}
+
+.parrafo {
+  font-size: 20px;
+}
+
+.color1 {
+  color: #fff;
+}
+
+.espacio {
+  display: inline-block;
+  margin: 0px 15px 0px 15px;
+}
+
+.fondo0 {
+  background-color: #0997b1;
+}
+
+.fondo1 {
+  background-image: url("../imagenes/slider.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: gray;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.banner1 {
+  background-image: url("../imagenes/circo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner2 {
+  background-image: url("../imagenes/p1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+
+  height: calc(100vh);
+  background-position: center;
+  background-image: url("../imagenes/banner2.jpg");
+  background-color: #928372;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.fondo2,
+.fondo3 {
+  background-color: #000000;
+}
+
+.fondo4 {
+  background-color: #161515;
+}
+
+.container-fluid0 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container-fluid1 {
+  padding-top: 210px;
+  padding-bottom: 200px;
+}
+
+.container-fluid2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container-fluid3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container-fluid4 {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 576px) {
+  .fondo1 {
+    background-position: center center;
+  }
+
+  .btn1 {
+    margin: 0 auto;
+    display: inline-block !important;
+    margin-bottom: 50px;
+  }
+  .tp {
+    color: #000;
+  }
+  .titulo2 {
+    font-size: 48px;
+  }
+  .letra1 {
+    font-size: 38px;
+  }
+  .tp {
+    font-size: 50px !important;
+  }
+  .txtpie {
+    font-size: 22px;
+  }
+}
+
+.price-table {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #d6d6d6;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+@media (min-width: 576px) {
+  .price-table {
+    padding-bottom: 50px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.price-table:hover {
+  background-color: rgb(1, 1, 1);
+  margin-top: -30px;
+  z-index: 10;
+  transform: scale(1);
+  transition: all 0.2s ease-in;
+  border: none;
+  box-shadow: rgba(127, 197, 207, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.redes-sociales a {
+  margin: 0 10px;
+}
+
+.columna {
+  padding: 0 15px;
+}
+
+
+.columna {
+  width: 300px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.columna a {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.Preguntas {
+  color: #fff;
+}
+
+.preguntas-frecuentes {
+  background-color: #0997b1;
+  color: #000; /* Color del texto, asegúrate de que haya suficiente contraste */
+  padding: 20px;
+}
+
+/*CAROUSEL*/
+
+/*tamaño de flechas*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+  /*fondo de color*/
+  background-color: #e4e4e450;
+  border-radius: 35%;
+  /*apariencia adicional*/
+  /*background-color: #0A2791;*/
+}
+
+/*color de flechas*/
+
+/*por defecto el icono tiene color blanco*/
+
+/*cambiar la propiedad fill por # hexadecimal SE PONE EL COLOR EN HEXADECIMAL DESPUES DEL %23   */
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23E69DFB' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23E69DFB' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}

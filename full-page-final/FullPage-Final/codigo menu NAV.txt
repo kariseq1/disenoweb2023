@@ -1,0 +1,40 @@
+ <!-- sticky-top  aparece el menu al desplazarce -->
+    <nav class="navbar navbar-expand-lg fondo1 fixed-top">
+        <!-- probar con container-fluid -->
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">
+                <!-- <h4 class="text-white">Empresa XYZ</h4> -->
+                <img src="imagenes/logo2.png" alt="Logotipo empresarial" class="img-fluid">
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- estilos de menu: mx-auto ml-auto mr-auto-->
+                <!-- centrar opciones: text-center -->
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="#t1">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white optmenu" href="#" id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Noticias
+                        </a>
+                        <div class="dropdown-menu text-left" aria-labelledby="desplegable1">
+                            <a class="dropdown-item optmenu" href="#">Noticia1</a>
+                            <a class="dropdown-item optmenu" href="#">Noticia2</a>
+                            <a class="dropdown-item optmenu" href="#">Noticia3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="#t2">Extras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link text-white optmenu" aria-current="page" href="#t3">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
